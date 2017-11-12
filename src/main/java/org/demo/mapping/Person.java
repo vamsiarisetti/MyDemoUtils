@@ -13,6 +13,10 @@ import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+/**
+ * @author vamsi
+ *
+ */
 @Entity
 @Table(name = "persons")
 public class Person implements Serializable {

@@ -9,6 +9,10 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
+/**
+ * @author vamsi
+ *
+ */
 @Entity
 @Table(name = "userinfo", uniqueConstraints = {@UniqueConstraint(columnNames = "username")})
 public class UserInfo {

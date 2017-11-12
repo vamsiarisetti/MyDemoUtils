@@ -32,6 +32,7 @@
         <!-- Drop and re-create the database schema on startup -->
         <!-- <property name="hbm2ddl.auto">create</property> -->
 
+		<!-- Creates database only if doesnot Exists  -->
         <property name="hbm2ddl.auto">update</property>
 
         <!-- <mapping resource="org/demo/mapping/Person.hbm.xml" /> -->

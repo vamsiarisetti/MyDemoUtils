@@ -2,7 +2,6 @@ package org.demo.MyDemoUtils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -14,11 +13,11 @@ import org.demo.util.HibernateUtil;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.mapping.PersistentClass;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
+ * Test Application
  * @author vamsi
  *
  */
