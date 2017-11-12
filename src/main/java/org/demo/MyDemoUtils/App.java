@@ -18,6 +18,10 @@ import org.hibernate.mapping.PersistentClass;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+/**
+ * @author vamsi
+ *
+ */
 public class App {
 	public static void main1(String[] args) {
 		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
